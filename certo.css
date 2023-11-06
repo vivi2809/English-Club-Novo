@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;1,100&family=Wix+Madefor+Text&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Noto Sans;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: #EEE2DE;
+}
+
+.nav {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0) ;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 25px 25px;
+}
+
+.nav .logo {
+    color: white;
+    font-style: italic; 
+    font-size: 25px;
+    margin-left: 3%;
+    cursor: pointer;
+}
+
+.nav .logo {
+    color: white;
+    font-style: italic; 
+    font-size: 25px;
+    margin-left: 3%;
+    cursor: pointer;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 25px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+ul button{
+    text-decoration: none;
+    color: #B31312;
+    font-size: 26px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 16px;
+    padding: 8px 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.matricula {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.matricula .background {
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/background.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    text-align: center;
+    gap: 80px;
+
+}
+
+.matricula .background button{
+    background: transparent;
+    border-color: white;
+    border-radius: 16px;
+    border: 3px solid;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.matricula .background button:hover{
+    background: #db987d;
+    border-color: #db987d;
+    border-radius: 16px;
+    border: 3px solid;
+    color: white;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.matricula .background p{
+   color: rgb(255, 255, 255);
+   font-size: 34px;
+    font-weight: 500;
+}
+
+.intro {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro .intro-titulo {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+} 
+
+.card {
+    width: 400px;
+    height: 600px;
+    display: inline-block;
+    border-radius: 16px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition-duration: 0.5s;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.card h5 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    border: 3px solid #b8b5b4;
+    background-color: #db987d;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.card p {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 16px;
+    margin-top: 15px;
+    font-weight: 700;
+    text-shadow: #000000 2px 3px 2px;
+    text-align: center;
+}
+
+.card1 {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(img/kids.jpg);
+}
+
+.card2 {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(img/idosos.jpg);
+}
+
+.card3 {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(img/excercicios.jpg);
+}
+
+.card4 {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(img/conteudo.jpg);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+
